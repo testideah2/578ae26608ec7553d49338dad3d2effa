@@ -3,9 +3,9 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "ru.vidniy.com"
     versionCode = "10"
-    version     = "1.0.0">
+    version     = "1.1.0">
 
-<name>ТЕСТ. vidniy.com</name>
+<name>ТЕСТ. app.vidniy.com</name>
 
 <description>
     Мы, ООО "Видный", осуществляем свою деятельность по Большому Сочи. Являемся оптовым поставщиком в сегменте пива, воды и пивных закусок. У нас более 20 партнеров-поставщиков, большой ассортимент товара, гибкий подход к клиентам, отлаженная логистика, высококвалифицированные менеджеры. Нацелены на долгосрочные и взаимовыгодные отношения с надежными партнерами. Поможем организовать отличный бизнес и предложим превосходный товар по доступной цене.
@@ -27,7 +27,7 @@
 <preference name='phonegap-version' value='cli-8.0.0' />
 
 <preference name='android-build-tool' value='gradle' />
-<preference name='android-minSdkVersion' value='16' />
+<preference name="android-targetSdkVersion" value="28" />
 <preference name='orientation' value='portrait' />
 
 <preference name='windows-appx-target' value='8.1-phone' />
@@ -38,12 +38,12 @@
 
 
 <platform name="android">
-    <icon src="res/android/icon/efffdd50cb87b066b4cf849bb35d79fc.png" density="ldpi" />
-    <icon src="res/android/icon/76107be5915376decc67ae6dc4c1e965.png" density="mdpi" />
-    <icon src="res/android/icon/f89789f06dc6536849a272d3ae412a81.png" density="hdpi" />
-    <icon src="res/android/icon/a92fa33fc570e9058220e0f8ee4f1573.png" density="xhdpi" />
-    <icon src="res/android/icon/2739e2ec8a9bcccde46c948050ac12f7.png" density="xxhdpi" />
-    <icon src="res/android/icon/f39615dd1cd7c63c6520b5be942b9b5e.png" density="xxxhdpi" />
+    <icon src="res/android/icon/7a71025c963d6d2ff79ab081cd658c4a.png" density="ldpi" />
+    <icon src="res/android/icon/a124227049b9cbc6226329f059671b04.png" density="mdpi" />
+    <icon src="res/android/icon/e8120d4623e1af07fe00958313d1c216.png" density="hdpi" />
+    <icon src="res/android/icon/847cec82e53526a0f8499c4360f8a205.png" density="xhdpi" />
+    <icon src="res/android/icon/848ba29d80fc74163c68d731d31302b9.png" density="xxhdpi" />
+    <icon src="res/android/icon/261fb7b329ca6f25d56d06a373999149.png" density="xxxhdpi" />
 
     <splash src="res/android/screen/9122fc81685188415342d5caa13bf9c6.png" density="port-hdpi"/>
     <splash src="res/android/screen/fc28998954bf2b41efadd86091b857ab.png" density="port-ldpi"/>
